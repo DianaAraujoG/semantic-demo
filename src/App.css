@@ -7,6 +7,11 @@
   pointer-events: none;
 }
 
+.fade-up-in {
+  will-change: transform;
+  animation: up 2s ease infinite alternate;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -34,5 +39,16 @@
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@keyframes up{
+  from {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0%);
+    opacity: 1;
   }
 }

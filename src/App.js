@@ -1,23 +1,15 @@
-import logo from './logo.svg';
+// import ResponsiveLayout from './components/ResponsiveLayout.jsx';
+import FormResponsive from './components/Form-responsisve.jsx';
+// import FormExample from './components/FormExample.jsx';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <FormResponsive/>
+      <div className='fade-up-in'>
+        <span>Holi :D</span>
+      </div>
     </div>
   );
 }
