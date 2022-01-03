@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
-import { Header, Form, Grid, Segment } from 'semantic-ui-react';
+import { Header, Form, Grid, Segment, Input } from 'semantic-ui-react';
 
 const Login = function () {
   return (
@@ -35,6 +35,7 @@ const Login = function () {
             />
           </Form>
         </Segment>
+        <Input placeholder='Search...' />
       </Grid.Column>
     </Grid>
   );

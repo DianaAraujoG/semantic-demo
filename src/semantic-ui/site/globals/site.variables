@@ -3,4 +3,7 @@
 *******************************/
 
 @primaryColor: #ed53b5;
+@primaryColorFocus: #53ed91;
 @pageBackground: #eff0f1;
+
+@purple: #B413EC;
