@@ -1,5 +1,5 @@
 /*******************************
     User Variable Overrides
 *******************************/
-/* @fontFamily: 'Licorice', cursive;*/
+@fontFamily: 'Licorice', cursive;
 @fontWeight: '900';

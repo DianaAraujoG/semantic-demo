@@ -29,7 +29,7 @@ const Login = function () {
               style={{ margin: '2em 0 0 0' }}
               content='Iniciar sesión'
               // color='orange'
-              size='big'
+              size='huge'
               fluid
               primary
             />
