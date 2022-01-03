@@ -28,9 +28,10 @@ const Login = function () {
             <Form.Button
               style={{ margin: '2em 0 0 0' }}
               content='Iniciar sesión'
-              color='orange'
+              // color='orange'
               size='big'
               fluid
+              primary
             />
           </Form>
         </Segment>
