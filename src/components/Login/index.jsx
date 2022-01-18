@@ -26,7 +26,7 @@ const Login = function () {
             />
             <a>¿Olvidaste tu contraseña?</a>
             <Form.Button
-              style={{ margin: '2em 0 0 0' }}
+              style={{ margin: '2em 0 0 0', 'align-self': 'center' }}
               content='Iniciar sesión'
               // color='orange'
               size='huge'

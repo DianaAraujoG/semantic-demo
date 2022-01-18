@@ -1,4 +1,6 @@
 /*******************************
     User Variable Overrides
 *******************************/
+
+@inputBorder: 'none':
 @inputFocusBorderColor: @purple;

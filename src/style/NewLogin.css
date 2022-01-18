@@ -1,0 +1,5 @@
+
+.ui.form input[type="text"]{
+    border: none !important;
+    border-bottom: 2px solid red !important;
+}
